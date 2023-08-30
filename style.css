@@ -29,10 +29,15 @@ footer{
     background-color: rgb(26, 27, 27);
     color: white;
     padding: 30px;
+    text-align: center;
 }
 
 .content li:hover{
     background-color: rgb(124, 101,101);
     border-radius: 10px;
     transition: 1s;
+}
+
+.text{
+  font-family: 'Signika Negative', sans-serif;
 }
