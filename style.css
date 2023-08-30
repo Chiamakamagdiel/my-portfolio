@@ -1,0 +1,38 @@
+#logo{
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size:40px;
+}
+body{
+  background-color: whitesmoke;
+}
+
+.bio{
+  text-align: center;
+}
+
+.img > img{
+  display: flex;
+  border-radius: 50%;
+}
+
+.row{
+  padding: 3rem 1rem;
+}
+
+main{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+footer{
+    background-color: rgb(26, 27, 27);
+    color: white;
+    padding: 30px;
+}
+
+.content li:hover{
+    background-color: rgb(124, 101,101);
+    border-radius: 10px;
+    transition: 1s;
+}
