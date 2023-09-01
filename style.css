@@ -23,7 +23,7 @@ body{
 
 main{
     background-color: whitesmoke;
-    height: 100vh;
+  
 }
 footer{
     background-color: rgb(26, 27, 27);
@@ -39,5 +39,21 @@ footer{
 }
 
 .text{
-  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+article{
+  font-size: 20px;
+}
+.col1{
+  display: flex;
+  justify-content: center;
+}
+
+.col2{
+  display: flex;
+  justify-content: center;
+}
+.hero-name{
+  display: flex;
+  left: 30px;
 }
