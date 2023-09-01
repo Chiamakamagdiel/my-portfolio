@@ -2,16 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- this is a google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- goolge ends here -->
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- bootstrap link ends here -->
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!-- bootstrap icon ends here -->
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+    <style>
+        .Container{
+            height: 80vh;
+        }
+
+        .Container>h4{
+            margin-top: 1rem;
+            text-align: center;
+            background-color: azure;
+        }
+
+        #contact-row > #first_col{
+            background-color:azure;
+            text-align: center;
+            padding:  3rem 10rem;
+            border-radius: 3pc;
+        }
+        
+        #contact-row > #second_col{
+            
+            padding:0rem 5rem ;
+        }
+
+        input{
+            border-radius: 1rem;
+            border-style: none;
+        }
+
+        main{
+            background-color:#c8f4fD;
+            padding:0%;
+            margin: 0;
+        }
+
+        textarea{
+            border-radius: 1pc;
+        }
+
+        
+    </style>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -43,7 +93,42 @@
         </nav>
     </header>
     <main>
+        <div class="Container">
+            <h4 class="text">Contact Me</h4>
+            <div id="contact-row" class="row">
 
+                <div id="first_col" class="col">
+                    <P><i class="bi bi-house-door"></i>R14 Fulton Avenue</P>
+                    <p><i class="bi bi-telephone">+234 8035647718</i></p>
+                    <p><i class="bi bi-envelope-at"></i>chiamakaudegbunam7@gmail.com</p>
+                    <hr><hr>
+                    <div>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div id="second_col" class="col">
+                    <form action="">
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" id="name" placeholder="Name" >
+                        <br>
+
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" id="email" placeholder="Email">
+                        <br>
+
+                        <label for="">Comment</label>
+                        <br>
+                        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
     </main>
     <footer>
         <p><small>&copy;</small>Designed by Chiamaka</p>
